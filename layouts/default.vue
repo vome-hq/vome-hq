@@ -5,7 +5,7 @@
     <div class="min-h-screen flex flex-col bg-white text-black">
       <header class="bg-white p-3 text-center flex flex-col md:flex-row items-center justify-between">
         <div class="flex items-center">
-          <img src="logo.png" class="w-32 mr-3" />
+          <img src="/logo.png" class="w-32 mr-3" />
           <h1 class="text-3xl md:text-3xl text-black">Votre Moment</h1>
         </div>
         <nav class="flex flex-col md:flex-row justify-center">
