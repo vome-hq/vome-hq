@@ -1,4 +1,7 @@
 <template>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <div class="min-h-screen flex flex-col bg-white text-black">
     <header class="bg-white p-5 text-center flex flex-col md:flex-row items-center justify-between w-full">
       <div class="flex items-center">
