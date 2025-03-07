@@ -4,9 +4,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <div class="min-h-screen flex flex-col bg-white text-black">
     <header class="bg-white p-5 text-center flex flex-col md:flex-row items-center justify-between w-full">
-      <div class="flex items-center">
-        <img src="/logo.png" alt="VOME Logo" class="p-2 h-16 w-25 mr-3" />
-      </div>
+      <NuxtLink to="/">
+        <div class="flex items-center">
+          <img src="/logo.png" alt="VOME Logo" class="p-2 h-16 w-25 mr-3" />
+        </div>
+      </NuxtLink>
       <button class="md:hidden p-3" @click="toggleMenu">☰</button>
       <nav :class="['w-full md:w-auto flex flex-col md:flex-row', { 'hidden': !menuOpen, 'block': menuOpen, 'md:flex': true }]">
         <NuxtLink to="/" class="text-2xl p-3 text-black">Home</NuxtLink>
